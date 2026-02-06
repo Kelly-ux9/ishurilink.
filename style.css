@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background: #e8f1ff;
+    margin: 0;
+    text-align: center;
+}
+
+.home-box, .login-box {
+    background: white;
+    width: 350px;
+    margin: 80px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888;
+}
+
+input, button {
+    width: 85%;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+}
+
+button {
+    background: #1a73e8;
+    color: white;
+    cursor: pointer;
+}
+
+.btn {
+    background: #1a73e8;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+}
+.forum-box {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 450px;
+    overflow-y: scroll;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.forum-msg {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.msg-student { background: #e4f3ff; }
+.msg-teacher { background: #eefbe3; }
+.msg-admin   { background: #ffe8e8; }
+
+textarea {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
